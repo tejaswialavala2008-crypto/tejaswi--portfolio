@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alavala Venkata Tejaswi | Portfolio</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+        body{font-family:Arial,sans-serif;background:#f5f7fb;color:#222;line-height:1.6}
+        header{background:linear-gradient(135deg,#182848,#4b6cb7);color:white;padding:20px 8%;position:sticky;top:0;z-index:1000}
+        nav{display:flex;justify-content:space-between;align-items:center}
+        nav h2{font-size:22px}
+        nav ul{list-style:none;display:flex;gap:25px}
+        nav ul li a{color:white;text-decoration:none;font-weight:bold}
+        nav ul li a:hover{color:#dbeafe}
+        .hero{min-height:90vh;display:flex;justify-content:center;align-items:center;text-align:center;padding:40px 20px;background:linear-gradient(135deg,#eef4ff,#fff)}
+        .hero-content{max-width:800px}
+        .hero h1{font-size:48px;color:#182848;margin-bottom:15px}
+        .hero h3{font-size:24px;color:#4b6cb7;margin-bottom:15px}
+        .hero p{font-size:18px;color:#555;margin-bottom:25px}
+        .btn{display:inline-block;background:#4b6cb7;color:white;padding:12px 25px;border-radius:25px;text-decoration:none;font-weight:bold;margin:5px}
+        .btn:hover{background:#182848}
+        section{padding:70px 8%}
+        section h2{text-align:center;color:#182848;font-size:32px;margin-bottom:35px}
+        .about{max-width:850px;margin:auto;text-align:center;font-size:17px}
+        .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px}
+        .card{background:white;padding:25px;border-radius:15px;box-shadow:0 5px 20px rgba(0,0,0,.08);transition:.3s}
+        .card:hover{transform:translateY(-7px)}
+        .card h3{color:#4b6cb7;margin-bottom:12px}
+        .card p{color:#555}
+        .skills{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+        .skill{background:#e8efff;color:#182848;padding:10px 18px;border-radius:20px;font-weight:bold}
+        .contact{text-align:center;background:#182848;color:white}
+        .contact h2{color:white}
+        .contact p{margin:10px}
+        .contact a{color:#dbeafe;text-decoration:none}
+        footer{background:#101a30;color:white;text-align:center;padding:18px;font-size:14px}
+        @media(max-width:700px){
+            nav{flex-direction:column;gap:15px}
+            nav ul{gap:12px;flex-wrap:wrap;justify-content:center}
+            .hero h1{font-size:35px}
+            .hero h3{font-size:20px}
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>Tejaswi</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Alavala Venkata Tejaswi</h1>
+        <h3>B.Tech 2nd Year | Computer Science and Engineering</h3>
+        <p>
+            Passionate Computer Science student interested in programming,
+            web development and emerging technologies. I enjoy learning new
+            skills and building simple solutions that can be useful in real life.
+        </p>
+        <a href="#projects" class="btn">View My Projects</a>
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+        <p>
+            I am <strong>Alavala Venkata Tejaswi</strong>, currently pursuing
+            my B.Tech 2nd year in Computer Science and Engineering. I am
+            interested in programming, technology and problem solving.
+        </p>
+        <br>
+        <p>
+            I am continuously improving my technical skills through coursework,
+            online learning, certifications and personal projects. My goal is
+            to become a skilled software professional and contribute to
+            meaningful technology projects.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+        <span class="skill">C</span>
+        <span class="skill">Java</span>
+        <span class="skill">Python</span>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">Git & GitHub</span>
+        <span class="skill">Data Structures</span>
+        <span class="skill">Problem Solving</span>
+    </div>
+</section>
+
+<section>
+    <h2>Strengths & Areas to Improve</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>My Strengths</h3>
+            <p>
+                • Quick learner<br>
+                • Consistent in learning<br>
+                • Good problem-solving attitude<br>
+                • Willingness to learn new technologies<br>
+                • Responsible and hardworking
+            </p>
+        </div>
+        <div class="card">
+            <h3>Area to Improve</h3>
+            <p>
+                I sometimes spend extra time making sure that my work is correct.
+                I am improving this by setting time limits, prioritizing tasks
+                and focusing on completing work efficiently.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>StudyMate - Student Study Assistant</h3>
+            <p>
+                A simple student-focused web application designed to help
+                students organize their study activities, maintain daily tasks
+                and stay motivated.
+            </p>
+            <br>
+            <strong>Technologies:</strong> HTML, CSS, JavaScript
+        </div>
+        <div class="card">
+            <h3>Student Skill Exchange</h3>
+            <p>
+                A platform concept where students can share their skills and
+                learn from other students. The project focuses on collaboration,
+                peer learning and skill development.
+            </p>
+            <br>
+            <strong>Technologies:</strong> HTML, CSS, JavaScript
+        </div>
+    </div>
+</section>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Python Programming Certification</h3>
+            <p>
+                Completed a beginner-level Python programming course covering
+                Python fundamentals, data types, conditional statements, loops,
+                functions and basic data structures.
+            </p>
+            <br>
+            <strong>Skills:</strong> Python, Programming Fundamentals
+        </div>
+        <div class="card">
+            <h3>Git & GitHub Fundamentals</h3>
+            <p>
+                Completed a certification focused on version control, Git
+                fundamentals, repositories, commits, branches and working with GitHub.
+            </p>
+            <br>
+            <strong>Skills:</strong> Git, GitHub, Version Control
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>B.Tech - Computer Science and Engineering</h3>
+            <p><strong>College:</strong> Dhanekula Institute of Engineering and Technology</p>
+            <p><strong>Year:</strong> 2nd Year</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>I am open to learning opportunities, collaborations and interesting technology projects.</p>
+    <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/" target="_blank">Visit My GitHub</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/" target="_blank">Visit My LinkedIn</a></p>
+</section>
+
+<footer>
+    <p>© 2026 Alavala Venkata Tejaswi | B.Tech CSE</p>
+</footer>
+
+</body>
+</html>
